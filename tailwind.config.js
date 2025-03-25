@@ -15,7 +15,7 @@ module.exports = {
         xl: "1440px",
         maxmd: { max: "976px" },
         maxsm: { max: "768px" },
-        mobile: { max: "375px" },
+        mobile: { max: "976px" },
       },
       colors: {
         primary: {
