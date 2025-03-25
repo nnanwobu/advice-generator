@@ -24,8 +24,8 @@ export default function AdviceCard() {
       className="relative w-1/4  mx-auto bg-accent-70 py-2 px-4 rounded-lg mobile:w-11/12 
      "
     >
-      <h1 className="text-primary-960 text-xs my-4 mobile:text-lg uppercase">{`advice # ${advise.id}`}</h1>
-      <p className="mobile:text-3xl">
+      <h1 className="text-primary-960 text-xs my-4 mobile:text-lg uppercase hover:text-primary-955">{`advice # ${advise.id}`}</h1>
+      <p className="mobile:text-3xl hover:text-primary-960">
         {isPending ? (
           <span className=" absolute -translate-x-1/2 -translate-y-1/2">
             <SpinnerMini />{" "}
@@ -42,7 +42,7 @@ export default function AdviceCard() {
 
       <button
         className="w-[40px] h-[40px] rounded-full bg-primary-960 
-       absolute -translate-x-1/2 -translate-y-1/2 active:shadow-2xl active:shadow-primary-50"
+       absolute -translate-x-1/2 -translate-y-1/2 active:shadow-2xl active:shadow-primary-50 hover:bg-primary-955"
         onClick={handleclick}
       >
         <img
