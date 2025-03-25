@@ -39,7 +39,6 @@ export default function AdviceCard() {
         alt="pattern divider photo"
         className="my-10"
       />
-      <p>wonderful app</p>
 
       <button
         className="w-[40px] h-[40px] rounded-full bg-primary-960 
