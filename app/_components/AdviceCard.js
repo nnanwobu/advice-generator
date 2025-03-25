@@ -25,7 +25,7 @@ export default function AdviceCard() {
      "
     >
       <h1 className="text-primary-960 text-xs my-4">{`advice # ${advise.id}`}</h1>
-      <p>
+      <p className="mobile:text-3xl">
         {isPending ? (
           <span className=" absolute -translate-x-1/2 -translate-y-1/2">
             <SpinnerMini />{" "}
