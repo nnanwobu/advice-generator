@@ -24,7 +24,7 @@ export default function AdviceCard() {
       className="relative w-1/4  mx-auto bg-accent-70 py-2 px-4 rounded-lg mobile:w-11/12 
      "
     >
-      <h1 className="text-primary-960 text-xs my-4">{`advice # ${advise.id}`}</h1>
+      <h1 className="text-primary-960 text-xs my-4 mobile:text-sm">{`advice # ${advise.id}`}</h1>
       <p className="mobile:text-3xl">
         {isPending ? (
           <span className=" absolute -translate-x-1/2 -translate-y-1/2">
