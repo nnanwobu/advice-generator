@@ -21,7 +21,7 @@ export default function AdviceCard() {
   }
   return (
     <div
-      className="relative w-1/4  mx-auto bg-accent-70 py-2 px-4 rounded-lg mobile:w-full 
+      className="relative w-1/4  mx-auto bg-accent-70 py-2 px-4 rounded-lg mobile:w-3/4 
      "
     >
       <h1 className="text-primary-960 text-xs my-4">{`advice # ${advise.id}`}</h1>
