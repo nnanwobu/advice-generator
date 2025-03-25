@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${Josefin.className} bg-accent-80 text-primary-100 flex flex-col min-h-screen antialiased relative w-full`}
       >
-        <div className="flex-1 px-8 py-12">
+        <div className="flex-1 px-2 py-12">
           <main className=" mx-auto max-w-6xl">
             <RangeProvider>{children}</RangeProvider>
           </main>
