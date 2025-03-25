@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${Josefin.className} bg-accent-80 text-primary-100 flex flex-col min-h-screen antialiased relative`}
+        className={`${Josefin.className} bg-accent-80 text-primary-100 flex flex-col min-h-screen antialiased relative w-[100vw]`}
       >
         <div className="flex-1 px-8 py-12">
-          <main className=" mx-auto overflow-hidden">
+          <main className=" mx-auto ">
             <RangeProvider>{children}</RangeProvider>
           </main>
         </div>
